@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body id="Home">
+    <nav class="navbar navbar-expand-lg py-5">
+      <div class="container">
+        <a class="navbar-brand d-flex" href="#">
+          <img class="img-header" src="logo@2x.png" alt="" />
+          <div class="header-text">
+            <p class="mb-0">Weather</p>
+            <small class="mt-0">tagline goes here</small>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#Home"
+              ><button
+                class="bttn btn btn-outline-custom rounded-pill px-4 py-1"
+                type="button"
+              >
+                Home
+              </button></a
+            >
+            <a class="nav-link" aria-current="page" href="#"
+              ><button
+                class="bttn btn btn-outline-custom rounded-pill px-4 py-1"
+                type="button"
+              >
+                News
+              </button></a
+            >
+            <a class="nav-link" aria-current="page" href="#"
+              ><button
+                class="bttn btn btn-outline-custom rounded-pill px-4 py-1"
+                type="button"
+              >
+                Live Cameras
+              </button></a
+            >
+            <a class="nav-link" aria-current="page" href="#"
+              ><button
+                class="bttn btn btn-outline-custom rounded-pill px-4 py-1"
+                type="button"
+              >
+                Photos
+              </button></a
+            >
+            <a class="nav-link" aria-current="page" href="#Contacts"
+              ><button
+                class="bttn btn btn-outline-custom rounded-pill px-4 py-1"
+                type="button"
+              >
+                Contacts
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="container">
+        <form class="find-location">
+          <input type="text" placeholder="find your location..." id="search" />
+          <input type="button" value="Find" id="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <div class="forcast-table">
+      <div class="container">
+        <div id="rowData" class=" forcast-box w-100">
+
+          
+
+        </div>
+      </div>
+    </div>
+    <footer class="ending">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <form action="#" class="subscribe-form position-relative mb-3">
+              <input type="text" placeholder="Enter your email to subscribe">
+              <input type="submit" value="Subscribe">
+            </form>
+          </div>
+          <div class="col-3 col-md-offset-1">
+            <div class="social-links">
+              <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+              <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+              <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+              <a href="www.google.com"><i class="fa-brands fa-google"></i></a>
+            </div>
+          </div>
+          <p class="mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
